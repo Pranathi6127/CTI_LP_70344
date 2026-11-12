@@ -1,0 +1,6 @@
+source,target,relationship,confidence,source_file,timestamp,evidence
+"ExampleAPT","ExampleRAT","USES",0.65,"reports\sample-report.txt","2026-11-12T09:06:30.842716800Z","The threat actor ExampleAPT uses ExampleRAT to target vulnerable servers."
+"ExampleAPT","CVE-2021-44228","EXPLOITS",0.65,"reports\sample-report.txt","2026-11-12T09:06:30.842716800Z","ExampleAPT exploits CVE-2021-44228 and communicates with 198.51.100.25."
+"ExampleAPT","198.51.100.25","EXPLOITS",0.65,"reports\sample-report.txt","2026-11-12T09:06:30.842716800Z","ExampleAPT exploits CVE-2021-44228 and communicates with 198.51.100.25."
+"CVE-2021-44228","198.51.100.25","EXPLOITS",0.65,"reports\sample-report.txt","2026-11-12T09:06:30.842716800Z","ExampleAPT exploits CVE-2021-44228 and communicates with 198.51.100.25."
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","update.example.org","COMMUNICATES_WITH",0.65,"reports\sample-report.txt","2026-11-12T09:06:30.842716800Z","The malware contacts update.example.org and drops a file with hash aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa."

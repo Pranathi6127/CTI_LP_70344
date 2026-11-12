@@ -1,0 +1,1 @@
+Synthetic CTI example for testing only. The threat actor ExampleAPT uses ExampleRAT to target vulnerable servers. ExampleAPT exploits CVE-2021-44228 and communicates with 198.51.100.25. The malware contacts update.example.org and drops a file with hash aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. The activity uses ATT&CK technique T1059.
